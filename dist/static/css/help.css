@@ -1,0 +1,249 @@
+html {
+  font-size: 14px;
+  width: 100%;
+  height: 100%; }
+
+body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.main {
+  width: 100%; }
+  .main .header {
+    width: 100%;
+    height: 50rem;
+    background: url(../imgs/tbg.png) no-repeat center center;
+    background-size: 100% 100%; }
+    .main .header img {
+      width: 100%; }
+    .main .header .title {
+      width: 100%;
+      height: 20.6rem;
+      padding-top: 1.7rem;
+      box-sizing: border-box;
+      position: relative; }
+      .main .header .title .flower {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 100; }
+      .main .header .title .speak {
+        width: 100%;
+        padding: 0 5%;
+        height: 6rem;
+        box-sizing: border-box;
+        margin-top: 10%; }
+        .main .header .title .speak .left {
+          width: 4rem;
+          height: 4rem;
+          float: left;
+          border-radius: 50%;
+          border: 2px solid #fff;
+          overflow: hidden; }
+          .main .header .title .speak .left img {
+            height: 100%; }
+        .main .header .title .speak .right {
+          position: relative;
+          margin-left: 1rem;
+          width: 76%;
+          height: 6rem;
+          background: #ededed;
+          float: left;
+          border-radius: 5px; }
+          .main .header .title .speak .right span {
+            width: 0;
+            height: 0;
+            border-right: 10px solid #ededed;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            position: absolute;
+            top: 10%;
+            left: -3%; }
+          .main .header .title .speak .right .txt {
+            width: 100%;
+            color: #9b9b9b;
+            padding: 0 5%;
+            box-sizing: border-box; }
+    .main .header .product {
+      width: 100%;
+      box-sizing: border-box; }
+      .main .header .product .pcontent {
+        width: 96%;
+        /**height: 22.7rem;**/
+        margin: 0 2%;
+        background: url(../imgs/draw.png) no-repeat;
+        background-size: 100% 100%;
+        box-sizing: border-box;
+        padding-top: 12%; }
+        .main .header .product .pcontent .pimg {
+          width: 90%;
+          height: 12rem;
+          border: 2px solid #ffba01;
+          margin: 0 5%; }
+          .main .header .product .pcontent .pimg img {
+            width: 100%;
+            height: 100%; }
+        .main .header .product .pcontent .ptxt {
+          width: 90%;
+          margin: 2% 5%;
+          color: #836700;
+          white-space: nowrap;
+          font-size: 0.8rem;
+          text-align: center; }
+          .main .header .product .pcontent .ptxt span {
+            color: red; }
+        .main .header .product .pcontent .pbtns {
+          width: 100%;
+          height: 7.7rem;
+          padding-bottom: 1rem;
+          box-sizing: border-box; }
+          .main .header .product .pcontent .pbtns div {
+            float: left;
+            width: 40%;
+            height: 40%;
+            margin: 5%; }
+            .main .header .product .pcontent .pbtns div button {
+              width: 100%;
+              height: 100%;
+              border-radius: 5px;
+              outline: none;
+              border: none;
+              color: #fff;
+              font-weight: bold; }
+            .main .header .product .pcontent .pbtns div .phelp {
+              background: #cf2929; }
+            .main .header .product .pcontent .pbtns div .pjoin {
+              background: #ffba01; }
+  .main .footer {
+    width: 100%;
+    min-height: 1500px;
+    margin-top: -7rem;
+    background: url(../imgs/rbg.png);
+    background-size: 100% 100%; }
+    .main .footer .title {
+      width: 100%;
+      height: 4rem;
+      line-height: 4rem;
+      position: relative; }
+      .main .footer .title div {
+        float: left;
+        text-align: center; }
+      .main .footer .title .tl, .main .footer .title .tr {
+        width: 38%;
+        background: #fff;
+        height: 0.1rem;
+        margin-top: 8%; }
+      .main .footer .title .tr {
+        float: right; }
+      .main .footer .title .tc {
+        width: 22%;
+        margin: 0 1%;
+        text-align: center;
+        white-space: nowrap;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold; }
+    .main .footer .helped {
+      width: 100%;
+      padding-top: 6rem;
+      box-sizing: border-box; }
+      .main .footer .helped .hcontent {
+        width: 100%;
+        height: 42rem; }
+        .main .footer .helped .hcontent ul {
+          width: 100%;
+          margin: 0;
+          padding: 0; }
+          .main .footer .helped .hcontent ul li {
+            width: 95%;
+            height: 6rem;
+            margin-left: 5%;
+            margin-top: 1rem;
+            list-style: none;
+            border-bottom: 1px dashed #fff;
+            line-height: 2rem; }
+            .main .footer .helped .hcontent ul li .hl {
+              width: 4.5rem;
+              height: 4.5rem;
+              float: left;
+              border-radius: 50%;
+              overflow: hidden; }
+              .main .footer .helped .hcontent ul li .hl img {
+                width: 100%;
+                height: 100%; }
+            .main .footer .helped .hcontent ul li .hr {
+              width: 75%;
+              float: left;
+              margin-left: 5%;
+              color: #fff; }
+              .main .footer .helped .hcontent ul li .hr .hname {
+                font-weight: bold;
+                font-size: 1.1rem; }
+              .main .footer .helped .hcontent ul li .hr .hrB {
+                font-size: 1.1rem;
+                white-space: nowrap;
+                color: #f6e0e0; }
+              .main .footer .helped .hcontent ul li .hr .htime {
+                color: #e19090;
+                font-size: 10px;
+                margin-left: 3%; }
+    .main .footer .rule {
+      width: 100%; }
+      .main .footer .rule .rtxt {
+        width: 100%;
+        color: #fff; }
+        .main .footer .rule .rtxt p {
+          width: 100%;
+          padding: 0 5%;
+          box-sizing: border-box;
+          line-height: 1.8rem; }
+    .main .footer .award {
+      width: 100%;
+      color: #fff;
+      line-height: 1.8rem; }
+  .main .show {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110; }
+  .main .mask {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110; }
+  .main .winfo {
+    width: 90%;
+    height: 6rem;
+    position: absolute;
+    top: 60%;
+    margin: 0 5%;
+    background: #ffba01;
+    z-index: 115; }
+    .main .winfo span {
+      position: absolute;
+      right: 2%;
+      top: 2%;
+      border: 1px solid #fff;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 1.2rem;
+      font-size: 1.5rem;
+      color: #fff; }
+    .main .winfo img {
+      width: 90%;
+      margin: 0 5%;
+      position: absolute;
+      top: 40%;
+      left: 0; }
+
+/*# sourceMappingURL=help.css.map */
